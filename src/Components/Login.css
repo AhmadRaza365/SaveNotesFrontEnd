@@ -1,0 +1,38 @@
+.LoginPage {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.LeftContainer {
+  background-color: #11250a;
+  min-height: 92vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.RightContainer {
+  background-color: #91c27d;
+  min-height: 52vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.LeftContainer h1 {
+  color: #91c27d;
+}
+
+@media screen and (max-width: 700px) {
+  .LoginPage {
+    grid-template-columns: 100%;
+  }
+  .LeftContainer {
+    min-height: 60vh;
+  }
+  .RightContainer {
+    max-height: 40vh;
+  }
+}

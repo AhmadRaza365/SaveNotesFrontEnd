@@ -1,0 +1,68 @@
+.ContactForm {
+  width: 60vw;
+  margin: auto;
+}
+.ContactForm input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #91c27d;
+  background-color: #91c27d !important;
+  color: #11250a;
+  border-radius: 15px;
+}
+
+.form-message-area {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #91c27d !important;
+  color: #11250a;
+  border-radius: 15px;
+}
+
+.ContactForm input:focus,
+.ContactForm input:active,
+.ContactForm input:hover .form-message-area:focus,
+.form-message-area:active,
+.form-message-area:hover {
+  background-color: #91c27d !important;
+  color: #11250a;
+}
+
+.form-message-area :default {
+  background-color: #91c27d !important;
+  color: #11250a;
+}
+
+.ContactFormRow {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.ContactFormRowChild1 {
+  margin-right: 1%;
+}
+
+.ContactFormRowChild2 {
+  margin-left: 1%;
+}
+
+.ContactFormBTN {
+  max-width: fit-content;
+  margin: auto;
+}
+@media screen and (max-width: 750px) {
+  .ContactForm {
+    width: 80vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  .ContactFormRow {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+}

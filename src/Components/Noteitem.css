@@ -1,0 +1,25 @@
+.NoteHead {
+  background-color: #11250a;
+}
+.NoteHead h3 {
+  color: #91c27d;
+}
+.NoteHead h5 {
+  color: #e7f0ef;
+}
+
+.NoteDesc {
+  background-color: #91c27d;
+  color: #11250a;
+  margin: 0;
+}
+
+.NoteFoot {
+  background-color: #91c27d;
+  border-top: 1px solid #11250a;
+}
+@media screen and (max-width: 700px) {
+  .carditem {
+    width: 70vw !important ;
+  }
+}

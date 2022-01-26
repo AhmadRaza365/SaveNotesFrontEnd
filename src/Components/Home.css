@@ -1,0 +1,30 @@
+.Homehero {
+  background-image: url("./HomeHero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 0%;
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Homehero h2 {
+  color: #91c27d;
+  text-align: center;
+}
+
+.HomeBottomCTO {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #11250a;
+}
+
+.HomeBottomCTO h2 {
+  color: #91c27d;
+}

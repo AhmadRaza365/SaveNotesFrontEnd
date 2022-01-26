@@ -1,0 +1,16 @@
+.modal-content {
+  background-color: #e7f0ef !important;
+}
+.ModalForm input,
+.ModalForm textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #91c27d;
+  background-color: #91c27d !important;
+  color: #11250a;
+  border-radius: 15px;
+}
+.modal-header {
+  background-color: #91c27d !important;
+  color: #11250a !important;
+}
