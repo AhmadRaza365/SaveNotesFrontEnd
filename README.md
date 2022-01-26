@@ -6,8 +6,6 @@ SaveNotes is a simple, fast, and powerful note-taking application. Save your not
 
 
 ## Dependencies
-1- Create App on FireBase
-
 
 ## Dependencies Installation
 
